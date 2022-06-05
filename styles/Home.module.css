@@ -1,0 +1,20 @@
+.container{
+  width: 80%;
+  margin: auto;
+}
+.btn{
+  background: coral;
+  color: #fff;
+  transition: 0.5s ease;
+  border: none;
+}
+.btn:hover{
+  opacity: 0.7;
+   cursor: pointer;
+}
+.head{
+  text-align: center;
+  font-size: 45px;
+  padding-bottom: 20px;
+  border-bottom: 1.5px solid rgb(196, 195, 195);
+}

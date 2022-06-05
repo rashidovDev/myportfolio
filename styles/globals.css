@@ -1,0 +1,515 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #111;
+}
+
+/* Navbar */
+.navbar {
+  position: relative;
+  padding: 30px 0;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  font-size: 20px;
+}
+.nav-elements{
+  display: flex;
+}
+.nav-elements a {
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.search {
+  display: flex;
+  border-radius: 15px;
+  width: 250px;
+  border: 1px solid #999;
+  padding-left: 12px;
+  align-items: center;
+}
+
+.search input {
+  width: 70%;
+  padding: 8px 5px;
+  border: none;
+  outline: none;
+
+}
+
+.search button {
+  width: 30%;
+  border-radius: 10px;
+  border: none;
+  padding: 11px 15px;
+}
+
+/* Main */
+
+.main {
+  margin-top: 50px;
+}
+
+.main-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 60px;
+}
+
+.main-meeting h1 {
+  font-size: 60px;
+}
+
+.main-meeting h4 {
+  font-size: 25px;
+}
+
+.main-meeting h2 {
+  font-size: 30px;
+}
+
+.main-img {
+  border-radius: 10px;
+  transition: 0.5s ease;
+}
+
+.main-img:hover {
+  opacity: 0.9;
+}
+
+/* about */
+
+.about {
+  margin-top: 50px;
+}
+
+.about-items {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.about-elements {
+  margin: 0 20px;
+  width: 450px;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 50px;
+  margin-right: 10px;
+}
+
+.about-elements h3 {
+  font-size: 30px;
+}
+
+.about-elements p {
+  font-size: 20px;
+}
+
+/* Products */
+.product {
+  margin-top: 50px;
+}
+
+.product-elements {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+
+}
+
+.product-items {
+  padding: 10px 0;
+  margin: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  text-align: center;
+  align-items: center;
+  transition: 1s ease;
+}
+
+.product-items:hover {
+  transform: translateY(-5px);
+}
+
+.product-items button {
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.product-inform {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*Contact */
+.contact {
+  margin-top: 50px;
+}
+
+.contact h1 {
+  margin-bottom: 40px;
+}
+
+.contact-item {
+  margin-top: 30px;
+  padding: 20px;
+  border: 1px solid #999;
+  width: 500px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.contact-item h1 {
+  margin-bottom: 25px;
+}
+
+.contact-item input {
+  padding: 10px;
+  display: block;
+  width: 80%;
+  margin-bottom: 20px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #999;
+}
+
+.contact-item textarea {
+  padding: 10px;
+  display: block;
+  width: 80%;
+  margin-bottom: 20px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #999;
+}
+
+.contact-item button {
+  width: 80%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Skills */
+.skills {
+  margin-top: 50px;
+}
+
+.skill-items {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-around;
+}
+
+.skill-elements {
+  margin: 15px 0;
+  align-items: center;
+}
+
+.skill-element {
+  height: 25px;
+  width: 400px;
+  background: rgb(224, 223, 223);
+  border-radius: 5px;
+}
+
+.skill-item {
+  height: 25px;
+  border-radius: 5px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+/* Footer */
+.footer {
+  padding: 40px 0;
+  margin-top: 50px;
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+  color: #444;
+  text-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.footer footer {
+  font-size: 22px;
+}
+
+/* NotFound */
+.not-found {
+
+  background: rgb(238, 238, 245);
+  width: 100%;
+  padding: 200px;
+  text-align: center;
+  align-items: center;
+}
+
+/* ProductId */
+.product-id {
+  padding-top: 70px;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.product-right1 {
+  align-items: center;
+  line-height: 60px;
+  padding: 50px 0;
+}
+
+.toggle-button {
+  position: absolute;
+  top: 37px;
+  right:2px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40px;
+  height: 21px;
+}
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 450px) {
+  .nav-items {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .toggle-button {
+    display: flex;
+  }
+
+  .nav-logo {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .nav-elements {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .search {
+    display: none;
+  }
+  .nav-elements.active {
+    display: flex;
+}
+
+/* Meeting */
+  .main{
+    margin-top: 10px;
+  }
+  .main-items{
+    padding: 20px;
+    flex-direction: column;
+  }
+  .main-meeting{
+    margin-bottom: 10px;
+  }
+  .main-meeting h1 {
+    font-size: 30px;
+  }
+  
+  .main-meeting h4 {
+    font-size: 20px;
+  }
+  
+  .main-meeting h2 {
+    font-size: 20px;
+  }
+  
+  .main-img {
+    border-radius: 10px;
+    transition: 0.5s ease;
+  }
+  
+  .main-img:hover {
+    opacity: 0.9;
+  }
+
+  /* About */
+  .about{
+    margin-top: 30px;
+  }
+  .about h1{
+    font-size: 35px;
+  }
+  .about-items{
+    flex-direction: column;
+  }
+  
+.about-elements {
+  margin: 20px 10px;
+  width: 330px;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 20px;
+  margin-right: 10px;
+}
+
+/* Products */
+
+.product {
+  margin-top: 30px;
+}
+.product h1{
+  font-size: 30px;
+}
+
+.product-elements {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+
+}
+
+.product-items {
+  padding: 10px 20px;
+  margin: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  text-align: center;
+  align-items: center;
+  transition: 1s ease;
+}
+
+.product-items:hover {
+  transform: translateY(-5px);
+}
+
+.product-items button {
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.product-inform {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+/* Skills */
+.skills{
+  margin-top: 30px;
+}
+.skill-items {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.skill-elements {
+  margin: 15px 0;
+  align-items: center;
+}
+
+.skill-element {
+  height: 25px;
+  width: 200px;
+  background: rgb(224, 223, 223);
+  border-radius: 5px;
+}
+/* Contact */
+
+.contact {
+  margin-top: 30px;
+}
+
+.contact h1 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.contact-item {
+  margin-top: 30px;
+  border: 1px solid #999;
+  width: 330px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.contact-item h1 {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.contact-item input {
+  padding: 10px;
+  display: block;
+  width: 80%;
+  margin-bottom: 10px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #999;
+}
+
+.contact-item textarea {
+  padding: 10px;
+  display: block;
+  width: 80%;
+  margin-bottom: 20px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #999;
+}
+
+.contact-item button {
+  width: 80%;
+  padding: 10px;
+  border-radius: 5px;
+}
+/* Footer */
+.footer footer{
+  font-size: 15px;
+}
+/* Product */
+
+.product-id {
+  padding-top: 70px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.product-right1 {
+  align-items: center;
+  line-height: 60px;
+  padding: 20px 0;
+}
+
+
+}
