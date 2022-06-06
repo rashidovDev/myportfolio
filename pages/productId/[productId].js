@@ -8,6 +8,7 @@ const Details = () => {
     const productId = router.query.productId;
     const proDetail = products.filter(x => x.id == productId)
     const product = proDetail[0];
+
     console.log(product, proDetail);
     return (
         <>
