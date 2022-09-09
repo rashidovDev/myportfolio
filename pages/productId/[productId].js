@@ -19,7 +19,7 @@ const Details = () => {
                         {
                             proDetail.length > 0&&<div className="product-id">
                             <div className="product-left1">
-                                <Image src={product.img} height={400} width={400} style={{ borderRadius: "10px" }} />
+                                <Image src={product.img} height={400} width={400} style={{ borderRadius: "10px" }} alt="product"/>
                             </div>
                             <div className="product-right1">
                                 <h1>{product.name}</h1>
