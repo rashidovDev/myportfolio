@@ -31,7 +31,7 @@ const ProductMap = (props) => {
                </div>
                </div>
                <div className={styles.btn} style={{width:"120px",margin:"auto", padding:"10px",borderRadius:"5px" }}>
-                    <Link href={`/productId/` + props.id}><a style={{color: "#fff"}}>Read More</a></Link></div>
+                    <Link href={`/productId/` + props.id}><a style={{color: "#fff", textDecoration:"none"}}>Read More</a></Link></div>
         </div>
         </>
      );

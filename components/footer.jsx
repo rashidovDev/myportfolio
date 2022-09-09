@@ -7,7 +7,7 @@ const Footer = () => {
     return ( 
         <>
          <div className="footer">
-             <div style={{fontSize:"25px",marginBottom:"10px"}}>
+             <div className='footer' style={{fontSize:"25px",marginBottom:"10px"}}>
              <a href='http://instagram.com/realist_dev'><BsInstagram /> </a> 
              <a href='http://t.me/anvar_rashidov'><RiTelegramLine/> </a> 
              <a href='http://github.com/rashidovDev'><FaGithub /> </a> 
