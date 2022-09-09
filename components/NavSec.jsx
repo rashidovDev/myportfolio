@@ -7,7 +7,8 @@ import {
     NavItem
 } from "reactstrap"
 import Link from 'next/link';
-import { navbar } from '../Data/navbar';
+import { navbar } from '../data/data';
+
 
 const NavSec = () => {
     const [isOpen, setIsOpen] = useState(false);

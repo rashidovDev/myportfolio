@@ -1,13 +1,13 @@
 import styles from "../styles/Home.module.css"
-import skillsData from "../data/skillsData"
 import React from "react";
 import { useState } from "react";
 import SkillsMap from "../mapData/skillsMap";
 import Head from "next/head";
+import { skills } from "../data/data";
 
 const Skills = () => {
 
-    const [skills, setSkills] = useState(skillsData)
+    const [skill, setSkill] = useState(skills) 
 
     const skillElements = skills.map(item => (
         <SkillsMap

@@ -1,14 +1,14 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import data from "../data/about";
 import React from "react";
 import AboutData from "../mapData/aboutData";
 import { useState } from "react";
+import { about } from "../data/data";
 
 
 const About = () => {
 
-  const [inform, setInform] = useState(data)
+  const [inform, setInform] = useState(about)
 
   const aboutElements = inform.map(element => (
     <AboutData
