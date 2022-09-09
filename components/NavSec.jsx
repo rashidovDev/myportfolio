@@ -29,15 +29,10 @@ const NavSec = () => {
     useEffect(() => {
       window.addEventListener("scroll", handleScroll)
     })
-  
-    let x = ["navn"]
-    if(scrolled){
-      x.push('fixed')
-    }
 
     return (
       <>
-      <Navbar className={x.push(" ")} light expand="md">
+      <Navbar className="navn" light expand="md">
           <Link  href="/" >
               <b className="brand">Portfolio</b>
           </Link>

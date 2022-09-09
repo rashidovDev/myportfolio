@@ -2,7 +2,7 @@ import Head from "next/head";
 import { useState } from "react";
 import styles from "../styles/Home.module.css";
 import React from "react";
-import {product} from "../Data/ProductData";
+import {product} from "../data/ProductData";
 import ProductMap from "../mapData/productMap";
 
 const Product = () => {
