@@ -15,7 +15,7 @@ const Meeting = () => {
                             <h2>Frontend Developer Tashkent, Uzbekistan</h2>
                         </div>
                         <div className="main-photo">
-                            <Image src={require("../assets/me.jpg")} alt="Me" width={500} height={520}  className="main-img"/>
+                            <Image src={require("../assets/justMe.jpg")} alt="Me" width={500} height={520}  className="main-img"/>
                         </div>
                     </div>
                 </div>

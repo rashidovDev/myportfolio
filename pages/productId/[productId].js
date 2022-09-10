@@ -36,21 +36,5 @@ const Details = () => {
         </>
     );
 }
-
 export default Details;
 
-
-
-
-// export const getStaticPaths = () => {
-//    const data = productData
-
-//    const paths = data.map(item => {
-//        return{
-//            params: {id: item.id.toString() }
-//        }
-//    })
-//    return{
-//        paths,
-//        fallback: false
-//    }

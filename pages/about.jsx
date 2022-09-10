@@ -5,9 +5,7 @@ import AboutData from "../mapData/aboutData";
 import { useState } from "react";
 import { about } from "../data/data";
 
-
 const About = () => {
-
   const [inform, setInform] = useState(about)
 
   const aboutElements = inform.map(element => (
